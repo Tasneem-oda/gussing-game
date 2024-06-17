@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:system-ui;
+    color: #ee1266;
+    text-transform: uppercase;
+}
+body{
+    background: #06012f;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.category ,.lives{
+    color: #fff;
+}
+h1{
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+p{
+    font-size: 20px;
+}
+.word{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    font-size: 30px;
+}
+.word input{
+    width: 20px;
+    height: 20px;
+    background: #06012f;
+    border: none;
+    color: #fff;   
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+.buttons{
+    width: 50%;
+}
+.buttons>*{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 30px;
+    font-weight: 700;
+}
